@@ -1,0 +1,12 @@
+{
+	"name": "@exabugs/eslint-config-js",
+	"version": "0.1.0",
+	"description": "Shared eslint config for JavaScript",
+	"main": "index.js",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+	"peerDependencies": {
+		"eslint": ">= 8"
+	}
+}
