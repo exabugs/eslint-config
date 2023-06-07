@@ -1,14 +1,13 @@
 {
 	"name": "@exabugs/eslint-config-typescript",
-	"version": "0.1.0",
+	"version": "0.1.4",
 	"description": "Shared eslint config for Typescript",
 	"main": "index.js",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
-	},
+	"repository": "github:exabugs/eslint-config",
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.17.0",
-		"@typescript-eslint/parser": "^5.17.0"
+		"@typescript-eslint/parser": "^5.17.0",
+		"eslint-config-prettier": "^8.8.0"
 	},
 	"peerDependencies": {
 		"eslint": ">= 8"
